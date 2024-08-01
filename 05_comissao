@@ -1,0 +1,8 @@
+VProduto = float(input("Insira o valor do Produto: "))
+PComissao = float(input("Insira a porcentagem da comissão: "))
+
+
+Comissão = (VProduto * (PComissao / 100))
+
+
+print(f"A sua Comissão é de R${Comissão}")
