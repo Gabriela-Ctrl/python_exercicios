@@ -1,0 +1,25 @@
+sabor = input("Indique o dia da semana: ")
+
+
+#função para selecionar sabor
+def dia_pizza(sabor):
+    match sabor:
+        case 1:
+            return print("Mussarela")
+      
+        case 2:
+             return print("Calabresa")
+      
+        case 3:
+             return print("Frango")
+      
+        case 4:
+             return print("Portuguesa")
+      
+        case _:
+             return print("Sabor Inválido")
+      
+    
+
+# Exibe o resultado da função
+sabor_pizza(sabor)
