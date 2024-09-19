@@ -1,3 +1,4 @@
+
 import sqlite3  # Importa o módulo sqlite3 para trabalhar com banco de dados SQLite
 
 # Classe que gerencia o banco de dados para as tarefas (ToDo)
